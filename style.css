@@ -1,11 +1,26 @@
 body{
-    background-color: rgb(223, 223, 18);
-    color: blue;
+    background-color: rgb(247, 247, 129);
+    color: black;
     font-family: sans-serif;
     font-size: 50px;
+    background-image:;
+}
+body.figure img#fotocapa{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+
+}
+div#interface{
+    width: 800px;
+    margin: 10px auto 10px auto;
+
 }
 h1{
-    color:rgb(46, 46, 223);
+    color:rgb(240, 240, 240);
+}
+nav{
+    color: cornsilk;
 }
 #fotocapa{
     position: relative;
@@ -19,6 +34,34 @@ figcaption.legenda{
 figure.fotocapa figcaption{
     position: absolute;
     top: 0px;
+}
+nav#menu{
+    display: block;
+    position: relative;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;    
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    font-size: 20px;
+    transition: background-color 1s;
+}
+nav#menu h1{
+     display: none; 
+}
+nav#menu li:hover{
+    background-color:rgba(156, 156, 24, 0.329);
+}
+nav#menu a{
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
 }
 #titulo{
     font-size: 40px;
@@ -38,6 +81,7 @@ figure.fotocapa figcaption{
 }
 #hconteudo{
     font-size: 20px;
+    color: teal;
 }
 .hnome{
     font-family: initial;
@@ -52,7 +96,7 @@ p{
     font-family:sans-serif;
 }
 h2{
-    color: rgb(8, 25, 73);
+    color: rgb(16, 67, 196);
     font-family:sans-serif;
     font-size: 30px;
 }
