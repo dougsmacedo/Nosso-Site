@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(223, 223, 18);
+    color: blue;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+h1{
+    color:rgb(46, 46, 223);
+}
+#fotocapa{
+    position: relative;
+    float: right;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figcaption.legenda{
+    position: absolute;
+}
+figure.fotocapa figcaption{
+    position: absolute;
+    top: 0px;
+}
+#titulo{
+    font-size: 40px;
+    font-family: monospace;
+    color: mediumblue;
+}
+#titulo2{
+    font-size: 40px;
+    font-family: serif;
+}
+#htitulo{
+    font-family: initial;
+    font-size: 50px;
+}
+.hdescricao{
+    font-size: 20px;
+}
+#hconteudo{
+    font-size: 20px;
+}
+.hnome{
+    font-family: initial;
+    font-size: 50px;
+    color: red;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.topo{
+    font-family:sans-serif;
+}
+h2{
+    color: rgb(8, 25, 73);
+    font-family:sans-serif;
+    font-size: 30px;
+}
