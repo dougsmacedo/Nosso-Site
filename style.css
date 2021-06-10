@@ -2,13 +2,10 @@ body{
     background-color: rgb(247, 247, 129);
     color: black;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 10px;
 }
-body.figure img#fotocapa{
-    position: absolute;
-    left: 100px;
-    top: 50px;
-
+menu{
+    font-size: large;
 }
 header#cabecalho{
     border-bottom: 1px #000000 solid;
